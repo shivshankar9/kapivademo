@@ -13,7 +13,6 @@ import Image from "next/image";
 import InputGroup from "@/components/ui/input-group";
 import ResTopNavbar from "./ResTopNavbar";
 import CartBtn from "./CartBtn";
-
 const data: NavMenu = [
   {
     id: 1,
@@ -22,52 +21,60 @@ const data: NavMenu = [
     children: [
       {
         id: 11,
-        label: "Men's clothes",
-        url: "/shop#men-clothes",
-        description: "In attractive and spectacular colors and designs",
+        label: "Juices",
+        url: "/product/juices/",
+        description: "Explore our range of nourishing Ayurvedic juices.",
       },
       {
         id: 12,
-        label: "Women's clothes",
-        url: "/shop#women-clothes",
-        description: "Ladies, your style and tastes are important to us",
+        label: "Capsules",
+        url: "/product/capsules/",
+        description: "Discover Ayurvedic capsules for complete nutrition.",
       },
       {
         id: 13,
-        label: "Kids clothes",
-        url: "/shop#kids-clothes",
-        description: "For all ages, with happy and beautiful colors",
+        label: "Combos",
+        url: "/product/combos/",
+        description: "Benefit from our specially curated product combinations.",
       },
       {
         id: 14,
-        label: "Bags and Shoes",
-        url: "/shop#bag-shoes",
-        description: "Suitable for men, women and all tastes and styles",
+        label: "Skin & Hair Care",
+        url: "/product/skin-hair-care/",
+        description: "Natural solutions for your skin and hair care needs.",
+      },
+      {
+        id: 15,
+        label: "Ghee",
+        url: "/product/ghee/",
+        description: "Pure and nutritious ghee for your daily wellness.",
       },
     ],
   },
   {
     id: 2,
     type: "MenuItem",
-    label: "On Sale",
-    url: "/shop#on-sale",
+    label: "Bestsellers",
+    url: "/bestseller-products/",
     children: [],
   },
   {
     id: 3,
     type: "MenuItem",
     label: "New Arrivals",
-    url: "/shop#new-arrivals",
+    url: "/new-arrivals/",
     children: [],
   },
   {
     id: 4,
     type: "MenuItem",
-    label: "Brands",
-    url: "/shop#brands",
+    label: "Offers",
+    url: "/offers/",
     children: [],
   },
 ];
+
+
 
 const TopNavbar = () => {
   return (

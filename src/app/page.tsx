@@ -9,11 +9,11 @@ export const newArrivalsData: Product[] = [
   {
     id: 1,
     title: "Kapiva Amla Juice",
-    srcUrl: "/images/kapiva-amla-juice.png",
+    srcUrl: "/images/shila1.png",
     gallery: [
-      "/images/kapiva-amla-juice.png",
-      "/images/kapiva-amla-juice-2.png",
-      "/images/kapiva-amla-juice-3.png",
+      "/images/shila1.png",
+      "/images/shila1.png",
+      "/images/shila1.png",
     ],
     price: 299,
     discount: { amount: 50, percentage: 15 },
@@ -22,8 +22,8 @@ export const newArrivalsData: Product[] = [
   {
     id: 2,
     title: "Kapiva Aloe Vera Juice",
-    srcUrl: "/images/kapiva-aloe-vera-juice.png",
-    gallery: ["/images/kapiva-aloe-vera-juice.png"],
+    srcUrl: "/images/shila1.png",
+    gallery: ["/images/shila1.png"],
     price: 349,
     discount: { amount: 70, percentage: 20 },
     rating: 4.5,
@@ -31,8 +31,8 @@ export const newArrivalsData: Product[] = [
   {
     id: 3,
     title: "Kapiva Giloy Juice",
-    srcUrl: "/images/kapiva-giloy-juice.png",
-    gallery: ["/images/kapiva-giloy-juice.png"],
+    srcUrl: "/images/shila1.png",
+    gallery: ["/images/shila1.png"],
     price: 319,
     discount: { amount: 40, percentage: 12 },
     rating: 4.8,
