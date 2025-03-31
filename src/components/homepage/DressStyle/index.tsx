@@ -30,12 +30,12 @@ const DressStyle = () => {
           <DressStyleCard
             title="Immunity Boosters"
             url="/shop#casual"
-            className="md:max-w-[260px] lg:max-w-[360px] xl:max-w-[407px] h-[190px] bg-[url('/images/dress-style-1.png')]"
+            className="md:max-w-[260px] lg:max-w-[360px] xl:max-w-[407px] h-[190px] bg-[url('/images/shila2.png')]"
           />
           <DressStyleCard
             title="Detox & Cleanse"
             url="/shop#formal"
-            className="md:max-w-[684px] h-[190px] bg-[url('/images/dress-style-2.png')]"
+            className="md:max-w-[684px] h-[190px] bg-[url('/images/shila2.png')]"
           />
         </motion.div>
         <motion.div
@@ -43,12 +43,12 @@ const DressStyle = () => {
           whileInView={{ y: "0", opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 1, duration: 0.6 }}
-          className="flex flex-col sm:flex-row md:h-[289px] space-y-5 sm:space-y-0 sm:space-x-5"
+          className="flex flex-col sm:flex-row md:h-[289px] space-y-5 sm:space-y-0 sm:space-x-2"
         >
           <DressStyleCard
             title="Digestive Health"
             url="/shop#party"
-            className="md:max-w-[684px] h-[190px] bg-[url('/images/dress-style-3.png')]"
+            className="md:max-w-[684px] h-[190px] bg-[url('/images/shila1.png')]"
           />
           <DressStyleCard
             title="Joint & Muscle Care"

@@ -91,21 +91,23 @@ const Header = () => {
           className="relative md:px-4 min-h-[448px] md:min-h-[428px] bg-cover bg-top xl:bg-[center_top_-1.6rem] bg-no-repeat bg-[url('/images/header-res-healthcare.png')] md:bg-[url('/images/header-healthcare.png')]"
         >
           <Image
-            priority
-            src="/icons/big-leaf.svg"
-            height={104}
-            width={104}
-            alt="big leaf"
-            className="absolute right-7 xl:right-0 top-12 max-w-[76px] max-h-[76px] lg:max-w-24 lg:max-h-max-w-24 xl:max-w-[104px] xl:max-h-[104px] animate-[spin_4s_infinite]"
-          />
-          <Image
-            priority
-            src="/icons/small-leaf.svg"
-            height={56}
-            width={56}
-            alt="small leaf"
-            className="absolute left-7 md:left-0 top-36 sm:top-64 md:top-44 lg:top-56 max-w-11 max-h-11 md:max-w-14 md:max-h-14 animate-[spin_3s_infinite]"
-          />
+  priority
+  src="/images/largeleaf.png"
+  height={154}
+  width={154}
+  alt="big leaf"
+  className="absolute right-7 xl:right-0 top-12 max-w-[128px] max-h-[128px] lg:max-w-[128px] lg:max-h-[128px] xl:max-w-[128px] xl:max-h-[128px] animate-[spin_4s_infinite]"
+/>
+
+<Image
+  priority
+  src="/images/small-leaf.png"
+  height={106}
+  width={106}
+  alt="small leaf"
+  className="absolute left-7 md:left-0 top-36 sm:top-64 md:top-44 lg:top-56 max-w-[128px] max-h-[128px] md:max-w-[128px] md:max-h-[128px] animate-[spin_3s_infinite]"
+/>
+
         </motion.section>
       </div>
     </header>

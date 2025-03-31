@@ -67,9 +67,9 @@ export const topSellingData: Product[] = [
   {
     id: 6,
     title: "Kapiva Biotin Gummies",
-    srcUrl: "/images/kapiva-biotin-gummies.png",
+    srcUrl: "/images/shila2.png",
     gallery: [
-      "/images/kapiva-biotin-gummies.png",
+      "/images/shila2.png",
       "/images/kapiva-biotin-gummies-2.png",
     ],
     price: 599,
@@ -79,7 +79,7 @@ export const topSellingData: Product[] = [
   {
     id: 7,
     title: "Kapiva Apple Cider Vinegar",
-    srcUrl: "/images/kapiva-apple-cider-vinegar.png",
+    srcUrl: "/images/shila2.png",
     gallery: [
       "/images/kapiva-apple-cider-vinegar.png",
       "/images/kapiva-apple-cider-vinegar-2.png",
@@ -91,7 +91,7 @@ export const topSellingData: Product[] = [
   {
     id: 8,
     title: "Kapiva Himalayan Shilajit Resin",
-    srcUrl: "/images/kapiva-shilajit.png",
+    srcUrl: "/images/shila2.png",
     gallery: [
       "/images/kapiva-shilajit.png",
       "/images/kapiva-shilajit-2.png",
@@ -105,7 +105,7 @@ export const relatedProductData: Product[] = [
   {
     id: 9,
     title: "Kapiva Organic Wheatgrass Juice",
-    srcUrl: "/images/kapiva-wheatgrass-juice.png",
+    srcUrl: "/images/shila2.png",
     gallery: [
       "/images/kapiva-wheatgrass-juice.png",
       "/images/kapiva-wheatgrass-juice-2.png",
@@ -117,7 +117,7 @@ export const relatedProductData: Product[] = [
   {
     id: 10,
     title: "Kapiva Triphala Juice",
-    srcUrl: "/images/kapiva-triphala-juice.png",
+    srcUrl: "/images/shila2.png",
     gallery: ["/images/kapiva-triphala-juice.png"],
     price: 299,
     discount: { amount: 40, percentage: 12 },
@@ -126,7 +126,7 @@ export const relatedProductData: Product[] = [
   {
     id: 11,
     title: "Kapiva Neem Juice",
-    srcUrl: "/images/kapiva-neem-juice.png",
+    srcUrl: "/images/shila2.png",
     gallery: ["/images/kapiva-neem-juice.png"],
     price: 289,
     discount: { amount: 35, percentage: 10 },
@@ -135,7 +135,7 @@ export const relatedProductData: Product[] = [
   {
     id: 12,
     title: "Kapiva Ashwagandha Gummies",
-    srcUrl: "/images/kapiva-ashwagandha-gummies.png",
+    srcUrl: "/images/shila2.png",
     gallery: [
       "/images/kapiva-ashwagandha-gummies.png",
       "/images/kapiva-ashwagandha-gummies-2.png",
