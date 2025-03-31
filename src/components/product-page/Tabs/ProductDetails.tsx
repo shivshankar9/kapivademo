@@ -7,22 +7,27 @@ export type SpecItem = {
 
 const specsData: SpecItem[] = [
   {
-    label: " Material composition",
-    value: "100% Cotton",
+    label: "Ingredients",
+    value: "Aloe Vera, Amla, Giloy, Wheatgrass, etc.",
   },
   {
-    label: "Care instructions",
-    value: "Machine wash warm, tumble dry",
+    label: "Usage Instructions",
+    value: "Take 30ml daily before meals or as directed.",
   },
   {
-    label: "Fit type",
-    value: "Classic Fit",
+    label: "Storage",
+    value: "Store in a cool, dry place away from direct sunlight.",
   },
   {
-    label: "Pattern",
-    value: "Solid",
+    label: "Shelf Life",
+    value: "18 months from the date of manufacturing.",
+  },
+  {
+    label: "Benefits",
+    value: "Boosts immunity, supports digestion, improves metabolism.",
   },
 ];
+
 
 const ProductDetails = () => {
   return (

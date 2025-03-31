@@ -8,27 +8,43 @@ type Category = {
 };
 
 const categoriesData: Category[] = [
-  {
-    title: "T-shirts",
-    slug: "/shop?category=t-shirts",
-  },
-  {
-    title: "Shorts",
-    slug: "/shop?category=shorts",
-  },
-  {
-    title: "Shirts",
-    slug: "/shop?category=shirts",
-  },
-  {
-    title: "Hoodie",
-    slug: "/shop?category=hoodie",
-  },
-  {
-    title: "Jeans",
-    slug: "/shop?category=jeans",
-  },
-];
+    {
+      title: "Juices",
+      slug: "/shop?category=juices",
+    },
+    {
+      title: "Herbal Powders",
+      slug: "/shop?category=herbal-powders",
+    },
+    {
+      title: "Gummies",
+      slug: "/shop?category=gummies",
+    },
+    {
+      title: "Diabetes Care",
+      slug: "/shop?category=diabetes-care",
+    },
+    {
+      title: "Weight Management",
+      slug: "/shop?category=weight-management",
+    },
+    {
+      title: "Immunity Boosters",
+      slug: "/shop?category=immunity-boosters",
+    },
+    {
+      title: "Hair & Skin Care",
+      slug: "/shop?category=hair-skin-care",
+    },
+    {
+      title: "Digestive Health",
+      slug: "/shop?category=digestive-health",
+    },
+    {
+      title: "Women’s Wellness",
+      slug: "/shop?category=womens-wellness",
+    },
+  ];
 
 const CategoriesSection = () => {
   return (
