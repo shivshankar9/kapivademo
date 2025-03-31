@@ -13,34 +13,34 @@ type FaqItem = {
 
 const faqsData: FaqItem[] = [
   {
-    question: "What is the material of the t-shirt?",
+    question: "What are the benefits of this product?",
     answer:
-      "Provide details about the fabric type (e.g., cotton, polyester, blend), weight, and any specific features.",
+      "This product helps improve overall wellness by supporting digestion, boosting immunity, and providing essential nutrients.",
   },
   {
-    question: "What are the care instructions for the t-shirt?",
+    question: "Is this product natural and free of chemicals?",
     answer:
-      "Outline recommended washing, drying, and ironing methods to maintain quality and longevity.",
+      "Yes, this product is made from 100% natural ingredients and contains no harmful chemicals, preservatives, or additives.",
   },
   {
-    question: "What is the design or print on the t-shirt made of?",
+    question: "How should I use this product?",
     answer:
-      "Explain the material used for the design (e.g., vinyl, screen print, embroidery) and its durability.",
+      "Follow the recommended dosage mentioned on the packaging or consult a healthcare professional for personalized advice.",
   },
   {
-    question: "Is the t-shirt unisex or designed for specific genders?",
+    question: "Are there any side effects of using this product?",
     answer:
-      "Indicate whether the shirt is suitable for both men and women or targeted towards a particular gender.",
+      "This product is safe for most users when consumed as directed. However, if you experience any adverse reactions, discontinue use and consult a doctor.",
   },
   {
-    question: "What are the shipping options and costs?",
+    question: "Is this product suitable for vegetarians or vegans?",
     answer:
-      "Provide information about shipping methods, estimated delivery times, and associated fees.",
+      "Yes, this product is vegan-friendly and does not contain any animal-derived ingredients.",
   },
   {
-    question: "What is the return policy for the t-shirt?",
+    question: "What is the shelf life of this product?",
     answer:
-      "Outline the return window, conditions, and refund or exchange procedures.",
+      "The shelf life of this product is 12 months from the date of manufacture. Please store it in a cool, dry place away from direct sunlight.",
   },
 ];
 
@@ -48,15 +48,17 @@ const FaqContent = () => {
   return (
     <section>
       <h3 className="text-xl sm:text-2xl font-bold text-black mb-5 sm:mb-6">
-        Frequently asked questions
+        Frequently Asked Questions
       </h3>
       <Accordion type="single" collapsible>
         {faqsData.map((faq, idx) => (
           <AccordionItem key={idx} value={`item-${idx + 1}`}>
-            <AccordionTrigger className="text-left">
+            <AccordionTrigger className="text-left font-medium text-lg">
               {faq.question}
             </AccordionTrigger>
-            <AccordionContent>{faq.answer}</AccordionContent>
+            <AccordionContent className="text-sm sm:text-base text-black/70">
+              {faq.answer}
+            </AccordionContent>
           </AccordionItem>
         ))}
       </Accordion>
